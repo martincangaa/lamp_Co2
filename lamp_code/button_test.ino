@@ -1,7 +1,7 @@
-// Versión 1.0 mapeado modo lampara
+// 1.0 Version (mapping lamp modes) (Problem: Too slow!!)
 
 const int button = 2;
-int button_touches = 0;
+int button_touches = 0;     // this variable = lamp mode
 
 void setup(){
     pinMode(button, INPUT);
@@ -34,7 +34,7 @@ void loop(){
 }
 
 
-// Versión 1.1 mapeado modo lampara
+// 1.1 Version (mapping lamp modes) (Problem: If you hold the button, arduino registers multiple interactions)
 
 int button_touches = 0;
 
