@@ -138,3 +138,15 @@ void ClickFunction() {
 
   } 
 } // ClickFunction
+
+void GoBed(){
+  // do stuff here
+}
+
+void WakeUp(){
+  // do stuff here
+}
+
+void CO2Mode(){
+  // do stuff here
+}
